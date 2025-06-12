@@ -1,0 +1,17 @@
+{
+  "name": "theme-ideas",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx -y vite",
+    "start": "npm run dev",
+    "build": "npx -y vite build",
+    "lint": "npx -y prettier --write ."
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.10",
+    "daisyui": "^5.0.43",
+    "tailwindcss": "^4.1.10"
+  }
+}
